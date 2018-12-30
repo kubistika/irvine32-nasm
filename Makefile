@@ -1,26 +1,3 @@
-# This makefile is to build the Along32 library and to install to the
-# correct location for the sake of dynamic linking.
-#
-# Copyright (C) 2009 Curtis Wong.
-# All right reserved.
-# Email: airekans@gmail.com
-# Homepage: http://along32.sourceforge.net
-#
-# Along32 library is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Lesser General Public License as 
-# published by the Free Software Foundation, either version 3 of the
-# License, or(at your option) any later version.
-#
-# Along32 library is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU Lesser General Public License for more details.
-#
-# You should have received a copy of the GNU Lesser General Public License
-# along with Along32 library.  If not, see <http://www.gnu.org/licenses/>.
-#
-#
-
 # Assembler is NASM
 ASM = nasm
 
@@ -36,7 +13,7 @@ INSTDIR = /usr/lib
 # Linker is ld
 LINKER = ld
 
-# Share libbrary option for linker
+# Share library option for linker
 SHLIB = -shared
 
 all: libkobi.so
