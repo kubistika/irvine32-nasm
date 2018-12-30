@@ -10,12 +10,6 @@ ASMFLAGS =
 # Where to install. Default is /usr/lib
 INSTDIR = /usr/lib
 
-# Linker is ld
-LINKER = ld
-
-# Share library option for linker
-SHLIB = -shared
-
 all: libkobi.so
 
 libkobi.so: kobi.o
